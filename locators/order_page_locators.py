@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class OrderPageLocators:
     ORDER_FORM_NAME = (By.CLASS_NAME, 'Order_Header__BZXOb')  # имя формы заказа "Для кого самокат"
     FIRS_NAME_FIELD = (By.CSS_SELECTOR, '[placeholder="* Имя"]')  # Поле "Имя"
-    lAST_NAME_FIELD = (By.CSS_SELECTOR, '[placeholder="* Фамилия"]')  # Поле "Фамилия"
+    LAST_NAME_FIELD = (By.CSS_SELECTOR, '[placeholder="* Фамилия"]')  # Поле "Фамилия"
     ADDRESS_FIELD = (By.CSS_SELECTOR, '[placeholder="* Адрес: куда привезти заказ"]')  # Поле "Адрес: Куда привезти заказ"
     METRO_STATION_FIELD = (By.CSS_SELECTOR, '[placeholder="* Станция метро"]')  # Поле "Станция метро"
     LIST_METRO_STATIONS = [By.XPATH, '//li[@data-value="1"]']

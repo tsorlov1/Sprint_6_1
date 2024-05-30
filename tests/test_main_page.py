@@ -2,7 +2,7 @@ import pytest
 import allure
 from locators.main_page_locators import MainPageLocators
 from pages.main_page import MainPage
-from config import TextAnswer
+from data import TextAnswer
 
 
 class TestQuestionList:

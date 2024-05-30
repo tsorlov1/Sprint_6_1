@@ -16,7 +16,7 @@ class OrderPage(BasePage):
 
     @allure.step('Заполнение поля "Фамилия"')
     def set_lastname(self, lastname):
-        self.send_keys(OrderPageLocators.lAST_NAME_FIELD, lastname)
+        self.send_keys(OrderPageLocators.LAST_NAME_FIELD, lastname)
 
     @allure.step('Заполнение поля "Адрес"')
     def set_address(self, address):
